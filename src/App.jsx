@@ -91,8 +91,8 @@ const handleDropdownChange = (e) => {
       <form onSubmit={handleSubmit}>
         <div>
           <textarea
-            rows="6"
-            cols="80"
+            rows="4"
+            cols="60"
             placeholder='Enter valid JSON data here'
             value={jsonInput}
             onChange={handleInputChange}
